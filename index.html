@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Store</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container mx-auto px-4">
+        <!-- Header and Nav -->
+        <header class="p-5">
+            <nav class="flex justify-between">
+                <div class="text-3xl  max-md:text-xl">Apple Store</div>
+                <ul class="flex max-md:text-sm gap-x-4 z-30">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- main section  -->
+        <main>
+            <section class="flex max-md:flex-col justify-center items-center mt-20">
+                <!-- left section -->
+                <div class="w-1/2 ml-10">
+                    <h1 class="max-md:text-xl text-4xl font-bold">Macbook Pro</h1>
+                    <p class="max-md:text-sm text-lg font-thin mt-3 w-[70%]">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nesciunt veniam sint explicabo maxime fugiat tenetur dolore minus voluptate eos error at quo ducimus deleniti dolores mollitia itaque, nisi sapiente.
+                    </p>
+                    <button class="max-md:p-1 p-2 bg-black text-white rounded text-sm mt-3">Order Now</button>
+                </div>
+                <!-- right serction -->
+                <div class="w-1/2">
+                    <div>
+                        <img class="absolute w-[600px] max-md:w-[400px] rotate-[90deg]" src="./img/triangle.png" alt="">
+                        <img class="relative w-[400px] max-md:w-[300px] ml-[60px]" src="./img/macbook.png" alt="macbook">
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Phone Section -->
+            <section class="ml-10 mt-[10vw]">
+                <div class="flex flex-col justify-center items-center">
+                    <h2 class="text-3xl font-bold mb-3"> iPhones</h2>
+                    <div class="w-[125px] h-[3px] bg-[#dc143c]"></div>
+                </div>
+                <div class="flex max-md:flex-col justify-around">
+                    <div class="w-[250px] flex flex-col items-center p-2 shadow-xl">
+                        <img class="h-[250px]" src="./img/15-plus.png" alt="11-pro-max">
+                        <h3 class="text-xl font-semibold">iPhone 15 Plus Max</h3>
+                        <p class="pt-1 text-center text-sm text-gray-500">iPhone 15 Plus 1TB</p>
+                        <p class="text-lime-500">$1299</p>
+                        <button class="p-2 bg-black text-white rounded text-sm mt-3">Order Now</button>
+                    </div>
+                    <div class="w-[250px] flex flex-col items-center p-2 shadow-xl">
+                        <img class="h-[250px]" src="./img/15-pro.png" alt="11-pro-max">
+                        <h3 class="text-xl font-semibold">iPhone 15 Pro</h3>
+                        <p class="pt-1 text-center text-sm text-gray-500">iPhone 15 Pro 512GB</p>
+                        <p class="text-lime-500">$899</p>
+                        <button class="p-2 bg-black text-white rounded text-sm mt-3">Order Now</button>
+                    </div>
+                    <div class="w-[250px] flex flex-col items-center p-2 shadow-xl">
+                        <img class="h-[250px]" src="./img/15.png" alt="11-pro-max">
+                        <h3 class="text-xl font-semibold">iPhone 15</h3>
+                        <p class="pt-1 text-center text-sm text-gray-500">iPhone 15 256GB</p>
+                        <p class="text-lime-500">$599</p>
+                        <button class="p-2 bg-black text-white rounded text-sm mt-3">Order Now</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Laptop Section  -->
+            <section class="ml-10 mt-[10vw]">
+                <div class=" flex flex-col justify-center items-center">
+                    <h2 class="text-3xl font-bold mb-3">iMac</h2>
+                    <div class="w-[80px] h-[3px] bg-[#dc143c]"></div>
+                </div>
+                <div class="flex max-md:flex-col justify-around">
+                    <div class="w-[250px] flex flex-col items-center p-2 shadow-xl ">                    
+                        <img class="h-[250px]" src="./img/macbook.png" alt="">
+                        <h3 class="text-xl font-semibold ">Macbook Pro</h3>
+                        <p class="pt-1 text-center text-sm  text-gray-500">Apple Macbook Pro 2TB</p>
+                        <p class="text-lime-500 ">$1299</p>
+                        <button class="p-2 bg-black text-white rounded text-sm mt-3">Order Now</button>
+                    </div>    
+                    <div class="w-[250px] flex flex-col items-center p-2 shadow-xl">                    
+                        <img class="h-[250px]" src="./img/macbook.png" alt="">
+                        <h3 class="text-xl font-semibold ">Macbook Pro</h3>
+                        <p class="pt-1 text-center text-sm  text-gray-500">Apple Macbook Pro 1TB</p>
+                        <p class="text-lime-500 ">$899</p>
+                        <button class="p-2 bg-black text-white rounded text-sm mt-3">Order Now</button>
+                    </div> 
+                    <div class="w-[250px] flex flex-col items-center p-2 shadow-xl">                    
+                        <img class="h-[250px]" src="./img/macbook.png" alt="">
+                        <h3 class="text-xl font-semibold ">Macbook Pro</h3>
+                        <p class="pt-1 text-center text-sm  text-gray-500">Apple Macbook Pro 512GB</p>
+                        <p class="text-lime-500 ">$1299</p>
+                        <button class="p-2 bg-black text-white rounded text-sm mt-3">Order Now</button>
+                    </div>                 
+                </div>
+            </section>
+
+            <!-- Catagories -->
+            <section class="ml-10 mt-[10vw] mb-10">
+                <div class="flex flex-col justify-center items-center">
+                    <h1 class="text-3xl font-bold mb-3">Catagories</h1>
+                    <div class="w-[150px] h-[3px] bg-[#dc143c]"></div>
+                </div>
+                <div class="flex max-md:flex-col">
+                    <!-- left -->
+                <div class="flex max-md:flex-col gap-3 w-1/2 justify-center items-center">
+                    <div class=" h-[120px] w-[120px] mt-10 shadow-xl">
+                            <img class="w-[100px] p-5 m-auto" src="./img/path-1.png" alt="">
+                    </div>
+                    <div class="flex flex-col gap-5 items-center">
+                    <div class="h-[120px] w-[120px] shadow-xl">
+                            <img class="w-[100px] p-5 mt-5 mx-auto" src="./img/path-2.png" alt="">
+                    </div>
+                    <div class="h-[120px] w-[120px] shadow-xl">
+                        <img class="w-[100px] p-5 mt-5 m-auto" src="./img/path-3.png" alt="">
+                    </div>
+                    </div>
+                </div>
+                <!-- right -->
+                <div class=w-1/2>
+                    <img src="./img/path-4.png" alt="">
+                </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
